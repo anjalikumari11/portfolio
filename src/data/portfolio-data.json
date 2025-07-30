@@ -1,0 +1,262 @@
+{
+  "navItems": [
+    {
+      "label": "Home",
+      "to": "hero"
+    },
+    {
+      "label": "About",
+      "to": "about"
+    },
+    {
+      "label": "Skills",
+      "to": "skills"
+    },
+    {
+      "label": "Projects",
+      "to": "projects"
+    },
+    {
+      "label": "Contact",
+      "to": "contact"
+    }
+  ],
+  
+  "hero": {
+    "tagline": "Welcome to my portfolio",
+    "title": "Hi, I'm Anjali Kumari",
+    "typingText": ["Developer", "Designer"],
+    "description": "A passionate full-stack developer with expertise in creating beautiful, functional, and user-centered digital experiences. Focused on building responsive, optimized and engaging websites.",
+    "primaryButton": {
+      "text": "View My Work",
+      "to": "projects"
+    },
+    "secondaryButton": {
+      "text": "Contact Me",
+      "to": "contact"
+    }
+  },
+  
+  "about": {
+    "subtitle": "About Me",
+    "title": "Know Me More",
+    "image": "../public/assets/myPic.jpg",
+    "heading": "I'm a Web Developer & Tech Enthusiast",
+    "paragraphs": [
+      "I'm a passionate web developer with a strong foundation in front-end and back-end technologies. I love turning creative ideas into functional, user-friendly websites. With experience in HTML, CSS, JavaScript, React, and PHP, I specialize in building responsive and interactive web applications that provide smooth user experiences.",
+      "My approach to design and development is centered around solving real problems for users while keeping code clean, maintainable, and well-documented. I enjoy working in collaborative environments and believe in continuous learning and improvement."
+    ],
+    "stats": [
+      {
+        "value": "0",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "20+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "",
+        "label": "Happy Clients"
+      }
+    ],
+    "resumeUrl": "file:///C:/Users/Lenovo/OneDrive/%E6%96%87%E6%A1%A3/Job%20Related/resume.pdf"
+  },
+  
+  "skills": {
+    "subtitle": "My Skills",
+    "title": "What I Do",
+    "description": "Here are some of the technologies and tools I'm proficient with. I continuously expand my skillset to stay updated with the latest trends and technologies.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "skills": [
+          {
+            "name": "HTML5",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          },
+          {
+            "name": "CSS3",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          },
+          {
+            "name": "React",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          }
+        ]
+      },
+      {
+        "name": "Backend",
+        "skills": [
+         
+          {
+            "name": "Python",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          },
+         
+          {
+            "name": "PHP",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+          },
+          {
+            "name": "Laravel",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"
+          }
+          
+        ]
+      },
+      {
+        "name": "Database",
+        "skills": [
+        
+          {
+            "name": "MySQL",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+          }
+          
+        ]
+      },
+      {
+        "name": "DevOps",
+        "skills": [
+          {
+            "name": "Git",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          },
+          {
+            "name": "Docker",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+          },
+          {
+            "name": "AWS",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+          },
+          {
+            "name": "Nginx",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"
+          },
+          {
+            "name": "Jenkins",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+          }
+        ]
+      }
+    ]
+  },
+  
+  "projects": {
+    "subtitle": "My Work",
+    "title": "Recent Projects",
+    "filters": [
+      {
+        "label": "Web Apps",
+        "value": "web"
+      },
+      {
+        "label": "Mobile",
+        "value": "mobile"
+      },
+      {
+        "label": "UI/UX",
+        "value": "ui-ux"
+      }
+    ],
+    "items": [
+      {
+        "title": "bhagavad Geeta",
+        "description": "Developed an interactive web application that presents the Bhagavad Gita in a modern, user-friendly digital book format.",
+        "image": "../public/assets/bhagavadGeeta.png",
+        "tags": ["React", "CSS Animation", "Javascript"],
+        "category": "web",
+        "demoUrl": "#",
+        "githubUrl": "https://github.com/anjalikumari11/Bhagwat-Gita"
+      },
+      {
+        "title": "Netflix Clone",
+        "description": "Built a responsive Netflix Clone web application that mimics the look and feel of the original Netflix platform.",
+        "image": "../public/assets/netflix.png",
+        "tags": ["React.js" ,"JavaScript", "HTML5", "CSS3"],
+        "category": "web",
+        "demoUrl": "#",
+        "githubUrl": "https://github.com/anjalikumari11/netflix-clone"
+      },
+      {
+        "title": "Quiz App",
+        "description": "Developed a dynamic and responsive Quiz App using React.js to help users test their knowledge in various subjects",
+        "image": "../public/assets/quiz.png",
+        "tags": ["React", "CSS", "React Router","JavaScript"],
+        "category": "web",
+        "demoUrl": "#",
+        "githubUrl": "https://github.com/anjalikumari11/Quiz-App"
+      },
+      {
+        "title": "Password Generator",
+        "description": "Created a responsive and easy-to-use Password Generator using React.js that allows users to generate secure and customizable passwords instantly.",
+        "image": "../public/assets/pswd.png",
+        "tags": ["React", "React Hooks", "CSS","JavaScript"],
+        "category": "web",
+        "demoUrl": "#",
+        "githubUrl": "https://github.com/anjalikumari11/passwordGenerator"
+      },
+      {
+        "title": "Snake & Ladder",
+        "description": "Built a digital version of the classic Snake and Ladder board game using React.js. The app features interactive gameplay, dynamic movement, and engaging visuals, making it enjoyable for users of all ages.",
+        "image": "../public/assets/snake&Ladder.png",
+        "tags": ["React.js", "JavaScript", "HTML5", "CSS3","State Management"],
+        "category": "web",
+        "demoUrl": "#",
+        "githubUrl": "https://github.com/anjalikumari11/Snake-Ladder"
+      },
+      {
+        "title": "eCommerce Website",
+        "description": "Developing a full-stack eCommerce web application where users can explore, view, and purchase products like laptop chargers and accessories.",
+        "image": "../public/assets/eCommerce.png",
+        "tags": ["React", "PHP", "SQL","Zustand","State Management"],
+        "category": "web",
+        "demoUrl": "#",
+        "githubUrl": "#"
+      }
+    ]
+  },
+  
+  "contact": {
+    "subtitle": "Get In Touch",
+    "title": "Contact Me",
+    "description": "I'm interested in freelance opportunities – especially ambitious or large projects. However, if you have other requests or questions, don't hesitate to contact me using the form below.",
+    "location": "India, Uttar Pradesh, Greater Noida",
+    "email": "anjalikumari38895@gamil.com",
+    "phone": "+91 8368669563"
+  },
+  
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/anjalikumari11/"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/anjali-kumari-0571b4260/"
+    },
+   
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "url": "https://instagram.com/"
+    },
+    {
+      "name": "Email",
+      "icon": "email",
+      "url": "anjalikumari38895@gmal.com"
+    }
+  ]
+}
