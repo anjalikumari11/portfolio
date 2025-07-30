@@ -40,7 +40,7 @@
   "about": {
     "subtitle": "About Me",
     "title": "Know Me More",
-    "image": "../public/assets/myPic.jpg",
+    "image": "/assets/myPic.jpg",
     "heading": "I'm a Web Developer & Tech Enthusiast",
     "paragraphs": [
       "I'm a passionate web developer with a strong foundation in front-end and back-end technologies. I love turning creative ideas into functional, user-friendly websites. With experience in HTML, CSS, JavaScript, React, and PHP, I specialize in building responsive and interactive web applications that provide smooth user experiences.",
@@ -173,7 +173,7 @@
       {
         "title": "bhagavad Geeta",
         "description": "Developed an interactive web application that presents the Bhagavad Gita in a modern, user-friendly digital book format.",
-        "image": "../public/assets/bhagavadGeeta.png",
+        "image": "/assets/bhagavadGeeta.png",
         "tags": ["React", "CSS Animation", "Javascript"],
         "category": "web",
         "demoUrl": "#",
@@ -182,7 +182,7 @@
       {
         "title": "Netflix Clone",
         "description": "Built a responsive Netflix Clone web application that mimics the look and feel of the original Netflix platform.",
-        "image": "../public/assets/netflix.png",
+        "image": "/assets/netflix.png",
         "tags": ["React.js" ,"JavaScript", "HTML5", "CSS3"],
         "category": "web",
         "demoUrl": "#",
@@ -191,7 +191,7 @@
       {
         "title": "Quiz App",
         "description": "Developed a dynamic and responsive Quiz App using React.js to help users test their knowledge in various subjects",
-        "image": "../public/assets/quiz.png",
+        "image": "/assets/quiz.png",
         "tags": ["React", "CSS", "React Router","JavaScript"],
         "category": "web",
         "demoUrl": "#",
@@ -200,7 +200,7 @@
       {
         "title": "Password Generator",
         "description": "Created a responsive and easy-to-use Password Generator using React.js that allows users to generate secure and customizable passwords instantly.",
-        "image": "../public/assets/pswd.png",
+        "image": "/assets/pswd.png",
         "tags": ["React", "React Hooks", "CSS","JavaScript"],
         "category": "web",
         "demoUrl": "#",
@@ -209,7 +209,7 @@
       {
         "title": "Snake & Ladder",
         "description": "Built a digital version of the classic Snake and Ladder board game using React.js. The app features interactive gameplay, dynamic movement, and engaging visuals, making it enjoyable for users of all ages.",
-        "image": "../public/assets/snake&Ladder.png",
+        "image": "/assets/snake&Ladder.png",
         "tags": ["React.js", "JavaScript", "HTML5", "CSS3","State Management"],
         "category": "web",
         "demoUrl": "#",
@@ -218,7 +218,7 @@
       {
         "title": "eCommerce Website",
         "description": "Developing a full-stack eCommerce web application where users can explore, view, and purchase products like laptop chargers and accessories.",
-        "image": "../public/assets/eCommerce.png",
+        "image": "/assets/eCommerce.png",
         "tags": ["React", "PHP", "SQL","Zustand","State Management"],
         "category": "web",
         "demoUrl": "#",
