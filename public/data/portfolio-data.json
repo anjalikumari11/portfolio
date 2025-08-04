@@ -83,10 +83,7 @@
             "name": "JavaScript",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           },
-          {
-            "name": "TypeScript",
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-          },
+         
           {
             "name": "React",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -170,6 +167,22 @@
       }
     ],
     "items": [
+      {
+        "title": "Blog Website",
+        "description": "Designed and developed a dynamic blog platform to share insights on [insert niche, e.g., web development, tech trends, personal growth]. The website features a clean, responsive UI, user-friendly navigation, and optimized content structure to enhance reader engagement. Integrated features include post categorization, search functionality, and social sharing",
+        "image": "/assets/image.png",
+        "tags": ["React", "CSS Animation", "Javascript","Firebase","Firebase auth"],
+        "category": "web",
+        "demoUrl": "https://anjaliblogs.netlify.app/",
+        "githubUrl": "https://github.com/anjalikumari11/firebase-blog"
+      },
+       {
+        "title": "ModishMart",
+        "description": "Developed a fully functional eCommerce website focused on modern fashion and lifestyle products. Designed a responsive, user-friendly interface with seamless navigation and product browsing.",
+        "image": "/assets/figmaEcommerce.png",
+        "tags": ["React", "CSS Animation", "Javascript"],
+        "category": "web"
+      },
       {
         "title": "bhagavad Geeta",
         "description": "Developed an interactive web application that presents the Bhagavad Gita in a modern, user-friendly digital book format.",
